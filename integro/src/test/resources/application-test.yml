@@ -1,5 +1,7 @@
 spring:
   datasource:
-    url: jdbc:tc:postgresql:13.2-alpine://payment
+    url: jdbc:h2:mem:mydb
+#    jdbc:tc:postgresql:13.2-alpine://payment
   jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database-platform: org.hibernate.dialect.H2Dialect
+#    org.hibernate.dialect.PostgreSQLDialect

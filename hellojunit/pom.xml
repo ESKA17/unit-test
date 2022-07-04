@@ -5,7 +5,7 @@
 
 	<artifactId>simpletest</artifactId>
 
-	<name>SpringBootHelloWorld</name>
+	<name>JUnit</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

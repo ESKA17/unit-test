@@ -1,6 +1,6 @@
 package com.github;
 
-import lombok.Data;
+import lombok.*;
 
 import javax.money.MonetaryAmount;
 import java.time.LocalDateTime;
